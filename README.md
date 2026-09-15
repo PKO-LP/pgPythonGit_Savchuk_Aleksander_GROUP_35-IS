@@ -12,6 +12,9 @@
   ![Вывод app.py в консоли](./console_output_1.png)
 * **Таблица в pgAdmin:**
   ![Таблица app.py в pgAdmin](./pgadmin_table_1.png)
+<img width="463" height="381" alt="image" src="https://github.com/user-attachments/assets/3641ffef-da92-49d9-a341-fbcee5bc930c" />
+
+<img width="597" height="632" alt="image" src="https://github.com/user-attachments/assets/0f4853b9-ca78-402f-ae2a-811ee7322138" />
 
 ---
 
