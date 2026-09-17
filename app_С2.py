@@ -2,16 +2,16 @@ import psycopg2
 
 # Настройки подключения к вашей базе данных
 connection = psycopg2.connect(
-    dbname="your_db_name", 
+    dbname="tracks_db", 
     user="postgres", 
-    password="your_password", 
+    password="Admin", 
     host="localhost", 
     port="5432"
 )
 
 cursor = connection.cursor()
 # СТРОКА 11: Запрос выводит только Название и Исполнителя
-cursor.execute("SELECT title, artist FROM tracks;") 
+cursor.execute("SELECT Название, Исполнитель FROM tracks;") 
 
 # Вывод результатов в консоль
 rows = cursor.fetchall()
